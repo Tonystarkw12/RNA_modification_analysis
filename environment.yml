@@ -1,0 +1,27 @@
+name: rna_modif_analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - r-base>=4.1
+  - r-ggplot2
+  - r-ChIPseeker
+  - r-VennDiagram
+  - r-gridExtra
+  - bioconda::bedtools
+  - bioconda::pybedtools
+  - bioconda::samtools
+  - pip:
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+    - biopython
+    - logomaker
+    - pysam
+    - jupyter
+    - notebook
+    - requests
+    - pyfaidx
