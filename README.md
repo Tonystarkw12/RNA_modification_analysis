@@ -305,8 +305,6 @@ psi_subset = psi_df.sample(1000, random_state=42)
 ## 👨‍🔬 作者
 
 **周子航**
-
-- 项目目标实验室: 伊成器教授实验室（北京大学）
 - 研究方向: RNA修饰的生物信息学分析
 
 ---
@@ -321,7 +319,6 @@ psi_subset = psi_df.sample(1000, random_state=42)
 
 ## 🙏 致谢
 
-- 伊成器教授实验室在RNA修饰检测技术方面的开创性贡献
 - CeU-seq和m6A-seq数据的原始研究者
 - 开源社区提供的优秀生物信息学工具
 
