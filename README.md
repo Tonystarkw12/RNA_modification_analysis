@@ -177,25 +177,7 @@ RNA_modification_analysis/
 
 ---
 
-## 📈 使用真实数据
 
-### 下载数据
-
-```bash
-cd data
-
-# Pseudouridine数据 (CeU-seq)
-wget https://ftp.ncbi.nlm.nih.gov/geo/series/GSE102nnn/GSE102476/suppl/GSE102476_CeU-seq_HEK293T.bed.gz
-gunzip GSE102476_CeU-seq_HEK293T.bed.gz
-
-# m6A数据 (从REPIC数据库手动下载)
-# 访问: https://repic.idrb.cas.cz/download
-
-# 基因组注释和FASTA
-wget -c https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_44/GRCh38.p14.genome.annotation.gtf.gz
-wget -c https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_44/GRCh38.p14.genome.fa.gz
-gunzip GRCh38.p14.genome.annotation.gtf.gz
-gunzip GRCh38.p14.genome.fa.gz
 ```
 
 ### 数据来源
