@@ -51,11 +51,18 @@ Thumbs.db
 # Logs
 *.log
 conda_install.log
+wget-log
 
 # Data files - exclude data folder
 data/
 
-# Results - include all results and figures
-# results/
-# figures/
-# Rplots.pdf
+# Results - exclude results folder
+results/
+
+# Large data files in root directory
+*.gz
+Rplots.pdf
+
+# Exclude workflow and spec directories
+.spec-workflow/
+.claude/
